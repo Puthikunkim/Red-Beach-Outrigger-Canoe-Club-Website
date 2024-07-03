@@ -1,0 +1,262 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/*  X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/*  XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
+
+@media (min-width: 576px) { 
+    .overall {
+        margin: 0 auto;
+        width: 30rem;
+    }
+    iframe{
+        margin: 0px auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+  }
+  @media (min-width: 768px) { 
+    .overall {
+        margin: 0 auto;
+        width: 40rem;
+    }
+    iframe{
+        margin: 0px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+      .portal_images{
+        padding-left: 10rem;
+      }
+  }
+  @media (min-width: 784px) { 
+    .overall {
+        margin: 0 auto;
+        width: 40rem;
+    }
+    iframe{
+        margin: 0px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+      .portal_images{
+        padding-left: 3rem;
+      }
+  }
+  @media (min-width: 992px) { 
+    .overall {
+        margin: 0 auto;
+        width: 50rem;
+    }
+    h1{
+        margin-top: 1.3rem;
+    }
+    iframe{
+        margin: 0px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+      .portal_images{
+        padding-left: 10rem;
+      }
+  }
+  @media (min-width: 1200px) { 
+    .overall {
+        margin: 0 auto;
+        width: 60rem;
+    }
+    h1{
+        margin-top: 1.3rem;
+    }
+    iframe{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+      .portal_images{
+        padding-left: 18rem;
+      }
+  }
+  @media (min-width: 1400px) { 
+    .overall {
+        margin: 0 auto;
+        width: 40rem;  
+    }
+    h1{
+        margin-top: 0.5rem;
+    }
+    iframe{
+        margin-top: 2rem;
+        margin-left: 2rem;
+        width: 31rem;
+      }
+    .portal_images{
+        padding-left: 22rem;
+    }
+      footer .ftr h3{
+        font-size: 1.2rem;
+        margin-bottom: 1.2rem;
+        color: #fff;
+        font-family: "Montserrat", sans-serif;
+    }
+  }
+
+nav {
+    background-color:rgb(51, 51, 51);
+    font-size: large;
+    color: white;
+} 
+nav a:hover {
+    color: rgb(9, 167, 170) !important; 
+}
+
+.carousel {
+    box-shadow: 7px 7px 31px -1px rgba(0,0,0,0.75);
+  }
+
+.text_content {
+    text-align: center;
+    color: #000000;
+    overflow: auto;
+    width: 25rem;
+    
+}
+.portal_images img{
+    height: 27rem;
+    width: 40rem;
+    padding: 1.5rem;
+    margin-left: 6rem;
+    
+}
+
+.bullet_points {
+    width: 26rem;
+    list-style-position: inside;
+    padding-left: 1.5rem;
+    
+}
+.modal-content {
+    background: #333333;
+    color: white;
+  }
+
+.form-control {
+    background: rgba(167, 162, 162, 0.133);
+  }
+
+.btn-primary {
+    background: #27bec2;
+    color: black;
+    --bs-btn-hover-bg: var(--bs-gray-900);
+    --bs-btn-hover-border-color: var(--bs-black);
+    --bs-btn-border-color: var(--bs-cyan-300);
+}
+
+.email{
+    text-align: center;
+}
+
+.address{
+    text-align: center;
+}
+
+.committee{
+    text-align: center;
+}
+
+#button_modal{
+    text-align: center;
+}
+
+footer{
+    background: #24252a;
+    padding: 3.125rem 1.25rem;
+}
+
+footer .container{
+    width: 100%;
+    max-width: 75rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .ftr h3{
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+
+footer .content{
+    list-style: none;
+}
+
+footer .content a{
+    text-decoration: none;
+    color: #fff;
+    opacity: .9;
+    line-height: 30px;
+    transition: 0.3s ease ;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9rem;
+}
+footer .content li{
+    text-decoration: none;
+    color: #fff;
+    opacity: .6;
+    line-height: 1.875rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9rem;
+
+}
+footer .content a:hover{
+    /* color: #0088a9 Changed after feedback was received from members of team*/
+    color: rgb(9, 167, 170)
+}
+
+footer .ftr{
+    flex-basis: 18%;
+}
+
+.ftr form {
+    display: flex;
+    align-items: center;
+    width: 100%
+    }
+
+input{
+    border: none;
+    outline: none;
+    padding: 0.625rem;
+    margin: 0.313rem 0rem;
+    background-color: #f5f5f5;
+
+}
+
+.btn input{
+    background-color: rgba(0,136,169,1);
+    /* background-color: rgb(9, 167, 170); Changed after receving feedback from Rayes */
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+
+.btn input:hover{
+    background: black;
+}
+
+h1{
+    padding-bottom: 0.7rem;
+  }
+
